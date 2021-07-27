@@ -14,7 +14,8 @@
   "keywords": [
     "logger",
     "logging",
-    "logs"
+    "logs",
+    "color"
   ],
   "author": "Brian Turloff",
   "license": "ISC",
