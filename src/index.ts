@@ -13,20 +13,20 @@ const colorCombos = [
 ]
 
 class MyLogger {
-  private label: string
+  #label: string
   private level: level
-  private bg: string
-  private color: string
+  private bg: string = ""
+  private color: string = ""
 
   constructor(label: string, level: level = 3) {
-    this.label = label
+    this.#label = label
     this.level = level
     this.setColor();
   }
 
   log = (...text: Array<any>) => {
     if (this.level > LOG_LEVEL)
-      console.log(`%c${this.label}: `, `color: ${this.color}; background-color: ${this.bg}`, ...text)
+      console.log(`%c${this.#label}: `, `color: ${this.color}; background-color: ${this.bg}`, ...text)
   }
 
   private setColor = () => {

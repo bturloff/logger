@@ -1,17 +1,24 @@
 {
   "name": "@brianturloff/logger",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.7",
+  "description": "Logging library for browsers with color",
+  "main": "lib/index.js",
+  "types": "lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bturloff/logger.git"
   },
+  "keywords": [
+    "logger",
+    "logging",
+    "logs"
+  ],
   "author": "Brian Turloff",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/bturloff/logger/issues"
   },
