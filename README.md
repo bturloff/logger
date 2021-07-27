@@ -1,5 +1,5 @@
 # Custom Colorized Logger
-### Description
+### Description 
 
 Console output library for browser development
 - Creates a logging object styled with a random color and preset label
